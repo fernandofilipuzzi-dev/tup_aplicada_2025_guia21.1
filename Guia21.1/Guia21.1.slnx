@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/DB/">
+    <Project Path="Geometria.MSQLDB/Geometria.MSQLDB.sqlproj" Id="87ad0ad0-19eb-41ea-81ef-531921c284b6">
+      <Build />
+      <Deploy />
+    </Project>
+  </Folder>
+  <Folder Name="/Mobile/">
+    <Project Path="Geometria.MauiMobile/Geometria.MauiMobile.csproj" Id="51014acf-cfe3-4c38-b3aa-0928742a1a10" />
+  </Folder>
+  <Folder Name="/Web/">
+    <Project Path="Geometria.ApiWeb/Geometria.ApiWeb.csproj" />
+    <Project Path="Geometria.BlazorWeb/Geometria.BlazorWeb.csproj" />
+    <Project Path="Geometria.MVCWeb/Geometria.MVCWeb.csproj" />
+  </Folder>
+  <Project Path="Geometria/Geometria.csproj" />
+</Solution>
