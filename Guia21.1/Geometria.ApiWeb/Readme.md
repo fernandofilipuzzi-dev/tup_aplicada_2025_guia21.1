@@ -1,0 +1,2 @@
+﻿SwaggerUI.OpenApi
+Microsoft.AspNetCore.OpenApi

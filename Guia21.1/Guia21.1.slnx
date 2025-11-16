@@ -6,12 +6,14 @@
     </Project>
   </Folder>
   <Folder Name="/Mobile/">
-    <Project Path="Geometria.MauiMobile/Geometria.MauiMobile.csproj" Id="51014acf-cfe3-4c38-b3aa-0928742a1a10" />
+    <Project Path="GeometriaMauiApp/GeometriaMauiApp.csproj" Id="800f85b4-40e4-4646-9a4f-1ca32825575c" />
+  </Folder>
+  <Folder Name="/Models/">
+    <Project Path="Geometria/Geometria.csproj" />
   </Folder>
   <Folder Name="/Web/">
     <Project Path="Geometria.ApiWeb/Geometria.ApiWeb.csproj" />
     <Project Path="Geometria.BlazorWeb/Geometria.BlazorWeb.csproj" />
     <Project Path="Geometria.MVCWeb/Geometria.MVCWeb.csproj" />
   </Folder>
-  <Project Path="Geometria/Geometria.csproj" />
 </Solution>

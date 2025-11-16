@@ -224,13 +224,13 @@ WHERE Id=@Id_Figura
 
             int cantidad = await comm.ExecuteNonQueryAsync();
 
-            return id > cantidad;
+            return entidad;
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error: {ex}");
         }
-        return false;
+        return null;
     }
 
     async public Task<bool> Remove(int idFigura)

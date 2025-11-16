@@ -2,7 +2,7 @@
 
 namespace Geometria.DAOs.Lists;
 
-public class FigurasListDAL : IFigurasDAO
+public class FigurasListDAO : IFigurasDAO
 {
 
     List<FiguraModel> figuras = new List<FiguraModel>();
